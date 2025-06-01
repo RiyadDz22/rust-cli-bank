@@ -86,6 +86,10 @@ This project helped reinforce:
 .
 ├── src
 │   └── main.rs   # Main logic for the CLI bank
+│   ├── models.rs # Definitions for Account and Accounts structs
+│   ├── actions.rs # Business logic (create, deposit, withdraw, loan)
+│   ├── input.rs # Helper functions for input handling
+│   └── utils.rs # Utility functions (e.g., parsing)
 ├── Cargo.toml    # Project manifest
 └── README.md     # You're reading this!
 ```
